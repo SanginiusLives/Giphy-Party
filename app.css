@@ -1,0 +1,56 @@
+.flex {
+    display: flex;
+}
+
+.maxWidth {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+}
+
+body {
+    background-color: #2b2b2b;
+    margin: 0 auto;
+}
+
+form {
+    padding: 30px;
+    width: fit-content;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#formInput {
+    padding: 10px 15px;
+}
+
+#formSub, #delete {
+    padding: 10px;
+    border: unset;
+}
+
+#formSub {
+    background-color: green;
+    color: #fff;
+}
+
+#delete {
+    color: #fff;
+    background-color: red;
+}
+
+#formSub:hover, #delete:hover {
+    cursor: pointer;
+}
+
+img {
+    margin: 0 auto;
+}
